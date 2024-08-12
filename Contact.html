@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tekzow </title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.PNG">
+
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <link rel="stylesheet" href="./assets/css/vendor/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/vendor/edumall-icon.css">
+    <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
+
+    <!-- Plugins CSS (All Plugins Files) -->
+    <link rel="stylesheet" href="./assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="./assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/perfect-scrollbar.css">
+    <link rel="stylesheet" href="./assets/css/plugins/jquery.powertip.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/glightbox.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/flatpickr.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/select2.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        /* Basic styles for the popups */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 400px;
+        }
+
+        .close {
+            cursor: pointer;
+            font-size: 20px;
+            color: #555;
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main class="main-wrapper">
+
+        <!-- Header start -->
+        <div class="header-section header-sticky">
+
+            <!-- Header Top Start -->
+            <div class="header-top d-none d-sm-block">
+                <div class="container">
+
+                    <!-- Header Top Bar Wrapper Start -->
+                    <div class="header-top-bar-wrap d-sm-flex justify-content-between">
+
+                        <div class="header-top-bar-wrap__info">
+                            <ul class="header-top-bar-wrap__info-list">
+                                <li><a href="tel:+63628 50853"><i class="fas fa-phone"></i> <span class="info-text">+91
+                                            63628 50853</span></a></li>
+                                <li><a href="mailto:contactus@tekzow.com"><i class="far fa-envelope"></i> <span
+                                            class="info-text">contactus@tekzow.com</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header-top-bar-wrap__info d-sm-flex">
+
+                            <ul class="header-top-bar-wrap__info-social">
+                                <li><a href="https://x.com/Tekzow_official?t=lNlYObmICC_NLx2yyaW9lg&s=09/"
+                                        target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/people/Tekzow/100093075241119/?mibextid=ZbWKwL"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/tekzow_official/?igshid=YzAwZjE1ZTI0Zg%3D%3D"
+                                        target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/tekzow/" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <!-- Header Top Bar Wrapper End -->
+
+                </div>
+            </div>
+            <!-- Header Top End -->
+
+            <!-- Header Main Start -->
+            <div class="header-main">
+                <div class="container">
+                    <!-- Header Main Wrapper Start -->
+                    <div class="header-main-wrapper">
+
+                        <!-- Header Logo Start -->
+                        <div class="header-logo">
+                            <a class="header-logo__logo" href="index.html"><img src="assets/images/l2.jpg" width="70" height="35" alt="Logo"></a>
+                        </div>
+                        <!-- Header Logo End -->
+
+
+                        <!-- Header Category Menu End -->
+                        <!-- Header Category Menu Start -->
+                        <div class="header-category-menu d-none d-xl-block">
+                            <a href="#" class="header-category-toggle">
+                                <div class="header-category-toggle__icon">
+                                    <svg width="18px" height="18px" viewBox="0 0 20 20" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                                            <path
+                                                d="M2,14 C3.1045695,14 4,14.8954305 4,16 C4,17.1045695 3.1045695,18 2,18 C0.8954305,18 0,17.1045695 0,16 C0,14.8954305 0.8954305,14 2,14 Z M9,14 C10.1045695,14 11,14.8954305 11,16 C11,17.1045695 10.1045695,18 9,18 C7.8954305,18 7,17.1045695 7,16 C7,14.8954305 7.8954305,14 9,14 Z M16,14 C17.1045695,14 18,14.8954305 18,16 C18,17.1045695 17.1045695,18 16,18 C14.8954305,18 14,17.1045695 14,16 C14,14.8954305 14.8954305,14 16,14 Z M2,7 C3.1045695,7 4,7.8954305 4,9 C4,10.1045695 3.1045695,11 2,11 C0.8954305,11 0,10.1045695 0,9 C0,7.8954305 0.8954305,7 2,7 Z M9,7 C10.1045695,7 11,7.8954305 11,9 C11,10.1045695 10.1045695,11 9,11 C7.8954305,11 7,10.1045695 7,9 C7,7.8954305 7.8954305,7 9,7 Z M16,7 C17.1045695,7 18,7.8954305 18,9 C18,10.1045695 17.1045695,11 16,11 C14.8954305,11 14,10.1045695 14,9 C14,7.8954305 14.8954305,7 16,7 Z M2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 0,3.1045695 0,2 C0,0.8954305 0.8954305,0 2,0 Z M9,0 C10.1045695,0 11,0.8954305 11,2 C11,3.1045695 10.1045695,4 9,4 C7.8954305,4 7,3.1045695 7,2 C7,0.8954305 7.8954305,0 9,0 Z M16,0 C17.1045695,0 18,0.8954305 18,2 C18,3.1045695 17.1045695,4 16,4 C14.8954305,4 14,3.1045695 14,2 C14,0.8954305 14.8954305,0 16,0 Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="header-category-toggle__text"><b>Category</b></div>
+                            </a>
+                            <div class="header-category-dropdown-wrap">
+                                <ul class="header-category-dropdown">
+                                    <li>
+                                        <a href="#"><b>Globalizatied Certification Course</b><span
+                                                class="toggle-sub-menu"></span></a>
+                                        <ul class="sub-categories children">
+                                            <li><a href="Ethical Hacking.html"><b>Certified Ethical Hacker
+                                                        (CEH)</b></a></li>
+                                            <li><a href="Master Certified Ethical Hacking.html"><b>Master Certified
+                                                        Ethical Hacker (M|CEH)</b></a></li>
+                                            <li><a href="cybersec.html"><b>Certified Cloud Security Engineer
+                                                        (C|CSE)</b></a></li>
+                                            <li><a href="Block Chain Developer.html"><b>BlockChain Developer
+                                                        Certification (B|DC)</b></a></li>
+                                            <li><a href="Computer Hacking Forensic Investigator.html"><b>Computer
+                                                        Hacking Forensic Investigator (C|HFI)</b></a></li>
+                                            <li><a href="Penetration Testing Professional.html"><b>Certified Penetration
+                                                        Testing Professional (C|PENT)</b></a></li>
+                                            <li><a href="SOC Analyst.html"><b>Certified SOC Analyst (C|SA)</b></a></li>
+                                            <li><a href="Cyber Security Technician.html"><b>Certified Cybersecurity
+                                                        Technician (C|CT)</b></a></li>
+                                            <li><a href="DevSecOps Engineer.html"><b>Certified DevSecOps Engineer
+                                                        (E|CDE)</b></a></li>
+                                            <li><a href="Full stack Developer.html"><b>Certified Full Stack Developer
+                                                        (CFSD)</b></a></li>
+                                            <li><a href="Machine Learning Master.html"><b>Certified Machine Learning
+                                                        Master (CMLM)</b></a></li>
+                                            <li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><b>Non-Globalized Certification Course</b><span
+                                                class="toggle-sub-menu"></span></a>
+                                        <ul class="sub-categories children">
+                                            <li>
+                                                <a href="course1.html"><b>Information Technology</b><span
+                                                        class="toggle-sub-menu"></span></a>
+                                                <ul class="sub-categories children">
+                                                    <li><a href="Ethical Hacking.html"><b>Ethical Hacking</b></a></li>
+                                                    <li><a href="Cloud security .html"><b>Cybersecurity</b></a></li>
+                                                    <li><a href="Bug Bounty.html"><b>Bug Bounty</b></a></li>
+                                                    <li><a href="Cloud Computing.html"><b>Cloud Computing</b></a></li>
+                                                    <li><a href="Networking&Hardware.html"><b>Networking and
+                                                                Hardware</b></a></li>
+                                                    <li><a href="CCNA.html"><b>CCNA</b></a></li>
+                                                    <li><a href="CompTIA-Netwok+.html"><b>CompTIA Network+</b></a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="course1.html"><b>Data Science and Analytics</b><span
+                                                        class="toggle-sub-menu"></span></a>
+                                                <ul class="sub-categories children">
+                                                    <li><a href="Data Science.html"><b>Data Science</b></a></li>
+                                                    <li><a href="Big data.html"><b>Big Data</b></a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="course1.html"><b>Design and Graphics</b><span
+                                                        class="toggle-sub-menu"></span></a>
+                                                <ul class="sub-categories children">
+                                                    <li><a href="Graphical Designing.html"><b>Graphic Designing</b></a>
+                                                    </li>
+                                                    <li><a href="UIUXdesign.html"><b>UI/UX Design</b></a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="course1.html"><b>Emerging Technologies</b><span
+                                                        class="toggle-sub-menu"></span></a>
+                                                <ul class="sub-categories children">
+                                                    <li><a href="IOT Course.html"><b>Internet of Things (IoT)</b></a>
+                                                    </li>
+                                                    <li><a href="Artificial Intelegence.html"><b>Artificial Intelligence
+                                                                (AI)</b></a></li>
+                                                    <li><a href="Machine Learning .html"><b>Machine Learning
+                                                                (ML)</b></a></li>
+                                                    <li><a href="Block Chain Developer.html"><b>Blockchain
+                                                                Technology</b></a></li>
+                                                    <li><a href="Web 3.0.html"><b>Web 3.0</b></a></li>
+                                                    <li><a href="Drone Technolgy.html"><b>Drone Technology</b></a></li>
+                                                    <li><a href="Robotics.html"><b>Robotics</b></a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="course1.html"><b>Software Development</b><span
+                                                        class="toggle-sub-menu"></span></a>
+                                                <ul class="sub-categories children">
+                                                    <li><a href="App Development.html"><b>App Development</b></a></li>
+                                                    <li><a href="Full stack Developer.html"><b>Full Stack
+                                                                Development</b></a></li>
+                                                    <li><a href="Python.html"><b>Python</b></a></li>
+                                                    <li><a href="Cloud Computing.html"><b>Cloud Computing</b></a></li>
+                                                    <li><a href="Java.html"><b>Java</b></a></li>
+                                                    <li><a href="C++.html"><b>C++</b></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Header Category Menu End -->
+
+
+                        <!-- Header Inner Start -->
+                        <div class="header-inner">
+
+                            <!-- Header Search Start -->
+                            <div class="header-serach">
+                                <form action="#">
+                                    <input type="text" class="header-serach__input" placeholder="Search...">
+                                    <button class="header-serach__btn"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                            <!-- Header Search End -->
+
+                            <!-- Header Navigation Start -->
+                            <div class="header-navigation d-none d-xl-block">
+                                <nav class="menu-primary">
+                                    <ul class="menu-primary__container">
+                                        <li>
+                                            <a href="index.html"><span>Home</span></a>
+
+                                        </li>
+                                        <li>
+                                            <a href="Course List.html"><span>Courses</span></a>
+
+                                        </li>
+                                        <li>
+                                            <a href="About.html"><span>About Us</span></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="Contact.html"><span>Contact</span></a>
+                                        </li>
+                                        <!-- Header Navigation End -->
+
+                                        <!-- Header Mini Cart Start -->
+
+
+                            </div>
+                            <!-- Header Mini Cart End -->
+
+                            <!-- Header Mobile Toggle Start -->
+                            <div class="header-toggle">
+                                <button class="header-toggle__btn d-xl-none" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasMobileMenu">
+                                    <span class="line"></span>
+                                    <span class="line"></span>
+                                    <span class="line"></span>
+                                </button>
+                                <!-- <button class="header-toggle__btn search-open d-flex d-md-none">
+                                        <span class="dots"></span>
+                                        <span class="dots"></span>
+                                        <span class="dots"></span>
+                                    </button> -->
+                            </div>
+                            <!-- Header Mobile Toggle End -->
+
+                        </div>
+                        <!-- Header Inner End -->
+
+                    </div>
+                    <!-- Header Main Wrapper End -->
+                </div>
+            </div>
+            <!-- Header Main End -->
+
+        </div>
+        <!-- Header End -->
+
+
+
+        <!-- Page Banner Section Start -->
+        <div class="page-banner">
+            <div class="page-banner__wrapper">
+                <div class="container">
+
+                    <!-- Page Breadcrumb Start -->
+                    <div class="page-breadcrumb">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">contact-us</li>
+                        </ul>
+                    </div>
+                    <!-- Page Breadcrumb End -->
+
+                </div>
+            </div>
+        </div>
+        <!-- Page Banner Section End -->
+        <!-- Offcanvas Start -->
+        <div class="offcanvas offcanvas-end offcanvas-mobile" id="offcanvasMobileMenu"
+            style="background-image: url(assets/images/mobile-bg.jpg);">
+            <div class="offcanvas-header bg-white">
+                <div class="offcanvas-logo">
+                    <a class="offcanvas-logo__logo" href="#"><img src="assets/images/dark-logo.png" alt="Logo"></a>
+                </div>
+                <button type="button" class="offcanvas-close" data-bs-dismiss="offcanvas"><i
+                        class="fas fa-times"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="canvas-menu">
+                    <ul class="offcanvas-menu">
+                        <li><a class="active" href="index.html"><span>Home</span></a>
+                        <li><a class="active" href="Course List.html"><span>Courses</span></a>
+                        <li><a class="active" href="About.html"><span>About Us</span></a>
+                        <li><a class="active" href="Contact.html"><span>Contact Us</span></a>
+                        </li>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Header User Button End -->
+        </div>
+        <!-- Offcanvas End -->
+
+
+
+        <!-- Contact us Section Start -->
+        <div class="contact-section">
+            <div class="container custom-container">
+
+                <div class="section-padding-02">
+                    <div class="row gy-8 justify-content-between">
+                        <div class="col-lg-4">
+                            <!-- Contact Info Start -->
+                            <div class="contact-info">
+
+                                <!-- Section Title Start -->
+                                <div class="section-title text-center text-lg-start" data-aos="fade-up"
+                                    data-aos-duration="1000">
+                                    <h2 class="section-title__title-02">Keep In Touch <br> With US.</h2>
+                                </div>
+                                <!-- Section Title End -->
+
+                                <div class="contact-info__wrapper" data-aos="fade-up" data-aos-duration="1000">
+
+                                    <!-- Contact Info Start -->
+                                    <div class="contact-info__item-02 text-center text-lg-start">
+                                        <div class="d-lg-flex gap-4 mb-4">
+                                            <div class="contact-info__icon">
+                                                <i class="fas  fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="contact-info__content">
+                                                <h3 class="contact-info__title">Address</h3>
+                                            </div>
+                                        </div>
+                                        <p><b>Phase 1 Electronic city Bangaluru, Karnataka 54786</b></p>
+                                    </div>
+                                    <!-- Contact Info End -->
+
+                                    <!-- Contact Info Start -->
+                                    <div class="contact-info__item-02 text-center text-lg-start">
+                                        <div class="d-lg-flex gap-4 mb-4">
+                                            <div class="contact-info__icon">
+                                                <i class="fas  fa-mobile-alt"></i>
+                                            </div>
+                                            <div class="contact-info__content">
+                                                <h3 class="contact-info__title">Phone</h3>
+                                            </div>
+                                        </div>
+                                        <p><b>Mobile:</b> <strong> +91 63628 50853</strong></p>
+                                    </div>
+                                    <!-- Contact Info End -->
+
+                                    <!-- Contact Info Start -->
+                                    <div class="contact-info__item-02 text-center text-lg-start">
+                                        <div class="d-lg-flex gap-4 mb-4">
+                                            <div class="contact-info__icon">
+                                                <i class="fas fa-comment"></i>
+                                            </div>
+                                            <div class="contact-info__content">
+                                                <h3 class="contact-info__title">Email:</h3>
+                                            </div>
+                                        </div>
+                                        <p><b>contactus@tekzow.com</b></p>
+
+                                    </div>
+                                    <!-- Contact Info End -->
+
+                                </div>
+
+                            </div>
+                            <!-- Contact Info End -->
+                        </div>
+                        <!-- <div class="col-lg-7"> -->
+                        <!-- Contact Map Start -->
+                        <!-- <div class="contact-map-02" data-aos="fade-up" data-aos-duration="1000">
+                                <iframe id="gmap_canvas"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.257692206919!2d77.66716511482125!3d12.844189019682952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11b122f6e4b7%3A0xd8236abf27a6a2f5!2s21%2C%202nd%20Main%20Rd%2C%20near%20GoodWorks%20Infinity%20Park%2C%20Electronics%20City%20Phase%201%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100%2C%20India!5e0!3m2!1sen!2sus!4v1624620754781!5m2!1sen!2sus"
+                                    width="600" height="450" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div> -->
+                        <!-- Contact Map End -->
+                        <!-- </div> -->
+                        <!-- </div>
+                </div> -->
+
+                        <!-- <div class="section-padding-01">
+                            <div class="row justify-content-between">
+                                <div class="col-lg-4"> -->
+
+                        <!-- Section Title Start -->
+                        <!-- <div class="section-title text-center text-lg-start" data-aos="fade-up"
+                                        data-aos-duration="1000"> -->
+                        <!-- <h2 class="section-title__title-02">Send a Message</h2> -->
+                        <!-- </div> -->
+                        <!-- Section Title End -->
+
+                        <!-- </div> -->
+                        <div class="col-lg-7">
+                            <!-- Contact Form Wrapper Start -->
+                            <div class="contact-form__wrapper" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="row gy-4">
+                                    <div class="col-md-6">
+                                        <div class="comment-form__input">
+                                            <label for="to_name">Name</label>
+                                            <input name="name" id="to_name" class="form-control" type="text"
+                                                placeholder="Your name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="comment-form__input">
+                                            <label for="email">Email</label>
+                                            <input id="email" name="email" class="form-control" type="email"
+                                                placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="comment-form__input">
+                                            <label for="phoneNumber">Phone Number</label>
+                                            <input id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}"
+                                                class="form-control" type="tel" placeholder="Contact" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="comment-form__input">
+                                            <label for="message">Message</label>
+                                            <textarea name="message" id="message" class="form-control"
+                                                placeholder="Message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="comment-form__input form-check">
+                                            <input type="checkbox" id="save">
+                                            <label for="save">Save</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="comment-form__input">
+                                            <button onclick="sendEmail()" class="btn btn-outline-success" type="button"
+                                                style="background-color: #0810a6;"><b>Submit</b></button>
+                                            <div id="result"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Contact Form Wrapper End -->
+                        </div>
+                        
+                        <!-- Confirmation Popup -->
+                        <div id="confirmationPopup" class="popup">
+                            <div class="popup-content">
+                                <span class="close" onclick="closePopup('confirmationPopup')">&times;</span>
+                                <h2>Confirm Submission</h2>
+                                <p>Are you sure you want to submit?</p>
+                                <button onclick="confirmSendEmail()">Yes</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Success Popup -->
+                        <div id="successPopup" class="popup">
+                            <div class="popup-content">
+                                <span class="close" onclick="closePopup('successPopup')">&times;</span>
+                                <h2>Email Sent Successfully!</h2>
+                                <p>Your email has been sent successfully.</p>
+                            </div>
+                        </div>
+                        <script>
+                            function closePopup(popupId) {
+                                document.getElementById(popupId).style.display = 'none';
+                            }
+                    
+                            function sendEmail() {
+                                // Collect form data
+                                const name = document.getElementById('to_name').value.trim();
+                                const email = document.getElementById('email').value.trim();
+                                const phoneNumber = document.getElementById('phoneNumber').value.trim();
+                                const message = document.getElementById('message').value.trim();
+                                const save = document.getElementById('save').checked ? 'Yes' : 'No';
+                    
+                                // Validate form fields
+                                if (!name || !email || !phoneNumber || !message) {
+                                    alert('Please fill out all fields.');
+                                    return;
+                                }
+                    
+                                // Show confirmation popup
+                                document.getElementById('confirmationPopup').style.display = 'flex';
+                            }
+                    
+                            function confirmSendEmail() {
+                                // Close confirmation popup
+                                closePopup('confirmationPopup');
+                    
+                                // Prepare form data for sending
+                                const formData = new FormData();
+                                formData.append('name', document.getElementById('to_name').value.trim());
+                                formData.append('email', document.getElementById('email').value.trim());
+                                formData.append('phoneNumber', document.getElementById('phoneNumber').value.trim());
+                                formData.append('message', document.getElementById('message').value.trim());
+                                formData.append('save', document.getElementById('save').checked ? 'Yes' : 'No');
+                    
+                                // Send the form data using fetch
+                                fetch('sendEmail.php', {
+                                    method: 'POST',
+                                    body: formData
+                                })
+                                .then(response => response.text())
+                                .then(data => {
+                                    document.getElementById('result').innerHTML = data;
+                                    if (data.includes("Email sent successfully")) {
+                                        document.getElementById('successPopup').style.display = 'flex'; // Show success popup
+                                    } else {
+                                        alert("Failed to send email.");
+                                    }
+                                })
+                                .catch(error => {
+                                    document.getElementById('result').innerHTML = 'Error: ' + error.message;
+                                });
+                            }
+                        </script>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Contact us Section End -->
+
+        <!-- Footer Start -->
+        <div class="footer-section bg-color-10">
+
+            <!-- Footer Widget Area Start -->
+            <div class="footer-widget-area section-padding-01">
+                <div class="container">
+                    <div class="row gy-6">
+
+                        <div class="col-md-4">
+                            <!-- Footer Widget Start -->
+                            <div class="footer-widget">
+                                <a href="#" class="footer-widget__logo"><img src="assets/images/dark-logo.png"
+                                        alt="Logo" width="150" height="32"></a>
+                                <div class="footer-widget__info">
+                                    <span class="title">Call us</span>
+                                    <a href="tel:+6362850853"><i class="fas fa-phone"></i> <span class="info-text">+91
+                                            63628 50853</span></a>
+
+                                </div>
+                                <div class="footer-widget__info">
+                                    <p>Electronic city Bengaluru, Karnataka 54786</p>
+                                    <a href="mailto:contactus@tekzow.com"><i class="far fa-envelope"></i> <span
+                                            class="info-text">contactus@tekzow.com</span></a>
+                                </div>
+
+                                <div class="footer-widget__social-02">
+                                    <a href="https://www.facebook.com/people/Tekzow/100093075241119/?mibextid=ZbWKwL"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://x.com/Tekzow_official?t=lNlYObmICC_NLx2yyaW9lg&s=09/"
+                                        target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/tekzow_official/?igshid=YzAwZjE1ZTI0Zg%3D%3D"
+                                        target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/tekzow/" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Footer Widget End -->
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="row gy-6">
+
+                                <div class="col-sm-4">
+                                    <!-- Footer Widget Start -->
+                                    <div class="footer-widget">
+                                        <h4 class="footer-widget__title"> About Us</h4>
+
+                                        <ul class="footer-widget__link">
+                                            <li><a href="index.html"><b>Home</b></a></li>
+                                            <li><a href="Course List.html"><b>Courses</b></a></li>
+                                            <li><a href="About.html"><b>About Us</b></a></li>
+                                            <li><a href="Contact.html"><b>Contact Us</b></a></li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- Footer Widget End -->
+                                </div>
+                                <div class="col-sm-4">
+                                    <!-- Footer Widget Start -->
+                                    <div class="footer-widget">
+                                        <h4 class="footer-widget__title">Non-Globalization Courses</h4>
+
+                                        <ul class="footer-widget__link">
+
+                                            <li><a href="Ethical Hacking.html"><b>Ethical Hacking</b></a></li>
+                                            <li><a href="Full stack Developer.html"><b>Full Stack
+                                                        Developer</b></a></li>
+                                            <li><a href="Graphical Designing.html"><b>Graphic Design</b></a>
+                                            </li>
+
+                                            <li><a href="#"><b>Digital Marketing</b></a></li>
+                                            <li><a href="Cloud Computing.html"><b>Cloud Computing</b></a></li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- Footer Widget End -->
+                                </div>
+                                <div class="col-sm-4">
+                                    <!-- Footer Widget Start -->
+                                    <div class="footer-widget">
+                                        <h4 class="footer-widget__title">Globalization Courses</h4>
+
+                                        <ul class="footer-widget__link">
+                                            <li><a href="Certified Ethical Hacker.html"><b>Certified Ethical
+                                                        Hacking</b></a></li>
+                                            <li><a href="DevSecOps Engineer.html"><b>Certified DevSecOps
+                                                        Engineer</b></a></li>
+                                            <li><a href="Penetration Testing Professional.html"><b>Certified
+                                                        Penetration
+                                                        Testing Professional</b></a></li>
+                                            <li><a href="Block Chain Developer.html"><b>Block Chain Developer
+                                                        Certification Certified</b></a></li>
+                                            <li><a href="Full stack Developer.html"><b>Full Stack
+                                                        Developer</b></a></li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- Footer Widget End -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Copyright Area End -->
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="copyright-wrapper text-center">
+                        <ul class="footer-widget__link flex-row gap-8 justify-content-center">
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                        <p class="footer-widget__copyright mt-0">&copy;<b> 2024 </b><span> <b>Tekzow</b>
+                            </span></a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Copyright Area End -->
+
+        </div>
+        <!-- Footer End -->
+
+        <!--Back To Start-->
+        <button id="backBtn" class="back-to-top backBtn">
+            <i class="arrow-top fas fa-arrow-up"></i>
+            <i class="arrow-bottom fas fa-arrow-up"></i>
+        </button>
+        <!--Back To End-->
+
+
+    </main>
+
+    <!-- Log In Modal Start -->
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog modal-dialog-centered modal-login">
+
+            <!-- Modal Wrapper Start -->
+            <div class="modal-wrapper">
+                <button class="modal-close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+
+                <!-- Modal Content Start -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Login</h5>
+                        <p class="modal-description">Don't have an account yet? <button data-bs-toggle="modal"
+                                data-bs-target="#registerModal">Sign up for free</button></p>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#">
+                            <div class="modal-form">
+                                <label class="form-label">Username or email</label>
+                                <input type="text" class="form-control" placeholder="Your username or email">
+                            </div>
+                            <div class="modal-form">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="modal-form d-flex justify-content-between flex-wrap gap-2">
+                                <div class="form-check">
+                                    <input type="checkbox" id="rememberme">
+                                    <label for="rememberme">Remember me</label>
+                                </div>
+                                <div class="text-end">
+                                    <a class="modal-form__link" href="#">Forgot your password?</a>
+                                </div>
+                            </div>
+                            <div class="modal-form">
+                                <button class="btn btn-primary btn-hover-secondary w-100">Log In</button>
+                            </div>
+                        </form>
+
+                        <div class="modal-social-option">
+                            <p>or Log-in with</p>
+
+                            <ul class="modal-social-btn">
+                                <li><a href="#" class="btn facebook"><i class="fab fa-facebook-square"></i> Gacebook</a>
+                                </li>
+                                <li><a href="#" class="btn google"><i class="fab fa-google"></i> Google</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Content End -->
+
+            </div>
+            <!-- Modal Wrapper End -->
+
+        </div>
+    </div>
+    <!-- Log In Modal End -->
+
+    <!-- Log In Modal Start -->
+    <div class="modal fade" id="registerModal">
+        <div class="modal-dialog modal-dialog-centered modal-register">
+
+            <!-- Modal Wrapper Start -->
+            <div class="modal-wrapper">
+                <button class="modal-close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+
+                <!-- Modal Content Start -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign Up</h5>
+                        <p class="modal-description">Already have an account? <button data-bs-toggle="modal"
+                                data-bs-target="#loginModal">Log in</button></p>
+                    </div>
+                    <div class="modal-body">
+
+                        <form action="#">
+                            <div class="row gy-5">
+                                <div class="col-md-6">
+                                    <div class="modal-form">
+                                        <label class="form-label">First Name</label>
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="modal-form">
+                                        <label class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="modal-form">
+                                        <label class="form-label">Username</label>
+                                        <input type="text" class="form-control" placeholder="username">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="modal-form">
+                                        <label class="form-label">Email</label>
+                                        <input type="text" class="form-control" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="modal-form">
+                                        <label class="form-label">Password</label>
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="modal-form">
+                                        <label class="form-label">Re-Enter Password</label>
+                                        <input type="password" class="form-control" placeholder="Re-Enter Password">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="modal-form form-check">
+                                        <input type="checkbox" id="privacy">
+                                        <label for="privacy">Accept the Terms and Privacy Policy</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="modal-form">
+                                        <button class="btn btn-primary btn-hover-secondary w-100">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- Modal Content End -->
+
+            </div>
+            <!-- Modal Wrapper End -->
+
+        </div>
+    </div>
+    <!-- Log In Modal End -->
+
+
+    <!-- JS Vendor, Plugins & Activation Script Files -->
+
+    <!-- Vendors JS -->
+    <script src="./assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="./assets/js/plugins/aos.js"></script>
+    <script src="./assets/js/plugins/parallax.js"></script>
+    <script src="./assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="./assets/js/plugins/jquery.powertip.min.js"></script>
+    <script src="./assets/js/plugins/nice-select.min.js"></script>
+    <script src="./assets/js/plugins/glightbox.min.js"></script>
+    <script src="./assets/js/plugins/jquery.sticky-kit.min.js"></script>
+    <script src="./assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="./assets/js/plugins/masonry.pkgd.min.js"></script>
+    <script src="./assets/js/plugins/flatpickr.js"></script>
+    <script src="./assets/js/plugins/range-slider.js"></script>
+    <script src="./assets/js/plugins/select2.min.js"></script>
+
+
+    <!-- Activation JS -->
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>
